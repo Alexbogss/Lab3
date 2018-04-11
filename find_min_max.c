@@ -5,7 +5,7 @@
 struct MinMax GetMinMax(int *array, unsigned int begin, unsigned int end) {
   struct MinMax mm;
   mm.min = array[begin];
-  mm.max = array[begin++];
+  mm.max = array[begin];
 
   // your code here
   for (int i = begin; i < end; ++i)
